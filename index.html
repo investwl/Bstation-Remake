@@ -8,22 +8,18 @@
         <!-- ternyata kalo mau punya icon tinggal import aja font awesome juga bisa -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    <body>
-        <!-- class="active" gunanya biar tombol Home ke high light terus -->
-        <!-- pake # di href biar link ke classnya sekaligus langsung bisa pindah page, kerjain di JS nya kayaknya -->
-        <div class="navbar">
-            <!-- ini a href buat image menu nya masih blm kepikiran gmn caranya  -->
-            <a href=".">
-                <div class="menu_logo"></div>
-                <div class="menu_logo"></div>
-                <div class="menu_logo"></div>
-            </a>
-            <!-- bstation masih rusak nanti cari caranya -->
-            <a href="#home" fixed><img src="./image_src/bstation_logo.png" class="menu_logo"></a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
-            <a href="#profile"><img src="./image_src/profile_logo.png" alt="gambar profile" class="right_side menu_logo"></a>
-        </div>
+    <body
+        <header>
+            <img class="logo" src="./images/bstation_logo.png" alt="logo">
+            <nav>
+                <ul class="links_for_nav">
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Watch Later</a></li>
+                </ul>
+            </nav>
+            <a href="#"><img src="./images/profile_logo.png" class="profile" alt="profile"></a>
+        </header>
         <!-- <script src="./script.js"></script> -->
     </body>
 </html>
