@@ -11,34 +11,39 @@ li, a{
     font-size: 16px;
     color: #292922;
     text-decoration: none;
+    background-color: white;
 }
 
 header{
     display: flex;
-    justify-content: flex-end;
+    justify-content:space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
 }
 
 .logo{
-    max-width : 50px;
-    max-height : 50px;
-    display : inline;
-    margin-right: auto;
+    max-width : 100px;
+    max-height : 100px;
+    /* display :none ; */
+    /* margin-right: auto; */
     cursor: pointer;
+    background-color: white;
 }
 
 .links_for_nav{
     list-style: none;
+    background-color: white;
 }
 
 .links_for_nav li{
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 30px;
+    background-color: white;
 }
 
 .links_for_nav li a:hover{
-    color: #0088a9
+    color: #0088a9;
 }
 
 .profile{
@@ -47,4 +52,5 @@ header{
     border: none;
     border-radius: 50px;
     cursor: pointer;
+    margin-right: 20px;
 }
