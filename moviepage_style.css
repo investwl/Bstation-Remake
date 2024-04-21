@@ -203,7 +203,7 @@ nav ul li a:hover{
 .movie-card-list{
     width: 270px;
     height: 150px;
-    margin: 5px;
+    margin: 10px;
     cursor: pointer;
 }
 
