@@ -283,10 +283,11 @@ to {opacity: 1}
     width: 209px;
     height: 335px;
     margin: 20px;
+    border-radius: 5px;
 }
 
 .top-card:hover{
-    box-shadow: 5px 5px 5px;
+    box-shadow: -1px -1px 30px;
 }
 
 /* recently added */
