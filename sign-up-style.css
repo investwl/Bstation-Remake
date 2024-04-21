@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.bagian-kiri{
+    position:fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 51%;
+    overflow: hidden;
+}
+
+#img_kiri{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bagian-kanan{
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 49%;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+#title_Welcome{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 67px;
+    font-family: "Marko One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(64, 123, 201 , 1);
+}
+
+#title_plsLogin{
+    position: relative;
+    top: 9px;
+    left: 78px;
+    color: rgb(115, 107, 107 , 1);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+.container{
+    position: absolute;
+    color: rgb(0, 0, 0 , 1);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: larger;
+    /* background-color:yellow; */
+    top: 228px;
+    left: 70px;
+    padding: 25px;
+    width: 75%;
+    height: 350px;
+}
+
+#labelEmail{
+    position: relative;
+    left: 28px;
+}
+
+#balokBiru-email{
+    position: absolute;
+    background-color: rgb(113,182,232,1);
+    top: 52.9px;
+    left: 65px;
+    height: 43px;
+    width: 10px;
+}
+
+input[type="email"]{
+    position: relative;
+    font-size: large;
+    padding: 10px;
+    left: 50px;
+    top: 4px;
+    background-color: rgb(187, 212, 230 , 1);
+    height: 43.5px;
+    width: 450px;
+    border-color: transparent;
+    border: none;
+}
+
+input:focus[type="email"], textarea:focus{
+    outline: none;
+    border-color: transparent;
+}
+
+input[type="password"]{
+    font-size: large;
+    padding: 10px;
+    background-color: rgb(187, 212, 230 , 1);
+    height: 43.5px;
+    width: 450px;
+    border-color: transparent;
+    border: none;
+}
+
+input:focus[type="password"], textarea:focus{
+    outline: none;
+    border-color: transparent;
+}
+
+#labelPw{
+    position: relative;
+    top: 18px;
+    left: 28px;
+}
+
+#balokBiru-Pw{
+    position: absolute;
+    background-color: rgb(113,182,232,1);
+    height: 43px;
+    width: 10px;
+    top: 137.66px;
+    left: 65px
+}
+
+#password{
+    position: relative;
+    top: 22px;
+    left: 50px;
+}
+
+#labelConfirmPw{
+    position: relative;
+    top: 36px;
+    left: 28px;
+}
+
+#balokBiru-ConfirmPw{
+    position: absolute;
+    background-color: rgb(113,182,232,1);
+    height: 43px;
+    width: 10px;
+    top: 222px;
+    left: 65px
+}
+
+#confirm-password{
+    position: relative;
+    top: 40px;
+    left: 50px;
+}
+
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 37px;
+    height: 37px;
+    border: 2px;
+    background-color: rgb(217, 217, 217, 1);
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    top: 78px;
+    left: 38px;
+}
+
+input[type="checkbox"]:checked::before {
+    content: "\2713";
+    position: absolute;
+    left: 1px;
+    top: -15px;
+    font-size: 47px;
+    color: #000000;
+}
+
+#labelRemember{
+    position: relative;
+    top: 62px;
+    left: 44px;
+}
+
+.error{
+    position: absolute;
+    top: 279px;
+    left: 66px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+}
+
+button[type="submit"] {
+    position: relative;
+    top: 88px;
+    left: 30px;
+    background: linear-gradient(to top, rgb(59,155,239,1) 90%, #96c9ff);
+    color: white; 
+    border: none;
+    height:54px;
+    width:500px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: larger;
+    font-weight:normal;
+}
+
+button[type="submit"]:hover {
+    /* background-color: ; */
+    background: linear-gradient(to top, rgb(50,137,238,1) 88%, #9ecdff);
+}
