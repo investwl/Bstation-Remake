@@ -1,0 +1,289 @@
+*{
+    box-sizing: border-box;
+    margin : 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* FAS ICON */
+.fas{
+    margin: 5px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    /* width: 1920px; */
+    height: 45px;
+    padding: 10px 20px 10px 20px;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+.bars{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bars :hover{
+    color: #70bfff;
+}
+
+.profile{
+    width: 25px;
+    height: auto;
+}
+
+.profile :hover{
+    color: #70bfff;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 35px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border: 1px solid darkgray;
+}
+
+.search-bar input[type="text"]{
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: #FFFFFF;
+    font-size: 16px;
+}
+
+.search{
+    padding: 5px;
+    cursor: pointer;
+    /* border-left: 2px solid gray;
+    border-spacing: 10px; */
+}
+
+.search :hover{
+    color: #70bfff;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin-right: 25px;
+}
+
+nav ul li:last-child{
+    margin-right: 0;
+}
+
+li, a{
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    background-color: #FFFFFF;
+}
+
+nav ul li a:hover{
+    color: #70bfff;
+}
+
+
+/* MOVIE PLAYER */
+.movie-player{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.movie-player video{
+    width: 100%;
+    height: auto;
+}
+
+/* MOVIE INFO */
+.movie-info{
+    padding: 20px;
+}
+
+.movie-title{
+    margin-top: 0px;
+}
+
+.details{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.viewers-ratings{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.viewers-ratings .views{
+    padding-right: 10px;
+}
+
+.viewers-ratings .rates{
+    padding-left: 1px;
+    padding-right: 10px;
+}
+
+.viewers-ratings .fas{
+    cursor: pointer;
+}
+
+.movie-desc .description{
+    max-height: 50px;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+.movie-desc .description.expanded{
+    max-height: none;
+}
+
+.movie-desc .show-more{
+    background: none;
+    border: none;
+    color: darkgray;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button button{
+    border-radius: 14px;
+    width: calc(auto + 5px);
+    height: 30px;
+    font-size: 16px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin: 5px;
+    background-color: #D9D9D9;
+    cursor: pointer;
+}
+
+.button :hover{
+    background-color: darkgray;
+}
+
+/* .button .fas{
+    margin: 5px;
+} */
+
+/* MOVIE RECOMMENDATIONS - MOVIE CARD */
+.rec h2{
+    font-size: 24px;
+    margin: 5px 10px;
+}
+
+.movie-card{
+   display: flex;
+   flex-wrap: wrap;
+   /* width: 100%; */
+}
+
+.card-list{
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+.movie-card-list{
+    width: 270px;
+    height: 150px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* USER REVIEW */
+.review{
+    padding: 10px;
+    /* width: 1920px;
+    background-color: darkgray; */
+}
+
+.user{
+    display: flex;
+}
+
+.user .fas{
+    margin-right: 15px;
+}
+
+.user-review h2{
+    font-size: 24px;
+    margin: 5px 0px;
+}
+
+.user-review{
+    width: 400px;
+}
+
+/* INPUT REVIEW */
+.input-review{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid darkgray;
+    outline: none;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.input-review::placeholder{
+    color: darkgray;
+}
+
+.review-button{
+    display: flex;
+    justify-content: end;
+    /* background-color: gray; */
+}
+
+.rates{
+    padding: 5px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #d9d9d9;
+    margin-right: 10px;
+}
+
+.post-review{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: darkgrey;
+}
+
+/* OTHER REVIEWS */
+.posted-review{
+    padding: 13px 0;
+}
+
+.user-profile .username{
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.user-profile .time{
+    color: gray;
+    font-size: 12px;
+}
+
+.review-content{
+    padding-left: 30px;
+}

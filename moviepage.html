@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Page</title>
+    <link rel="icon" type="image/png" href="moviePage_assets/title.png">
+    <link rel="stylesheet" href="moviepage_style.css">
+    <script src="moviepage_script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- NAVIGATION BAR - HEADER -->
+    <div class="navbar">
+        <div class="bars">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="logo">
+            <img src="moviePage_assets/logo.png" class="logo">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Watch Later</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" name="Search" placeholder="Search">
+            <div class="search">
+                <i class="fa fa-search"></i>
+            </div>
+        </div>
+        <div class="profile">
+            <a href="#">
+                <i class="fas fa-user"></i>
+                <!-- <img src="profile.png" alt="profile" class="profile"> -->
+            </a>
+        </div>
+    </div>
+
+    <!-- MOVIE PLAYER -->
+    <div class="movie-player">
+        <video controls>
+            <source src="moviePage_assets/VOICE.mp4" controls>
+        </video>
+    </div>
+
+    <!-- MOVIE DETAILS & INFORMATION -->
+    <div class="movie-info">
+        <h1 class="movie-title">Voice 1</h1>
+        <div class="details">
+            <div class="viewers-ratings">
+                <span class="views">4.2M viewers</span>
+                <i class="fas fa-thumbs-up"></i>
+                <span class="rate">69%</span>
+                <i class="fas fa-thumbs-down"></i>
+                <span class="rate">31%</span>
+            </div>
+            <div class="button">
+                <button class="download"><i class="fas fa-arrow-down"></i>Download</button>
+                <button class="save"><i class="fas fa-bookmark"></i>Save</button>
+                <button class="share"><i class="fas fa-share"></i>Share</button>
+            </div>
+        </div>
+        <div class="movie-desc">
+            <p class="description">Popular detective Moo Jin Hyuk who is filled with guilt for his wife's death, works with professional voice profiler Kang Kwon Joo, whose father is killed, to solve a different crime, chasing for the serial killer responsible for the deaths of their family members. Popular detective Moo Jin Hyuk who is filled with guilt for his wife's death, works with professional voice profiler Kang Kwon Joo, whose father is killed, to solve a different crime, chasing for the serial killer responsible for the deaths of their family members. </p>
+            <button class="show-more">Show More<i class="fas fa-angle-down"></i></button>
+        </div>
+    </div>
+
+    <!-- OTHER VIDEOS -->
+    <div class="rec">
+        <h2>Videos you may like</h2>
+        <ul class="movie-card">
+            <li class="card-list">
+                <img class="movie-card-list" src="moviePage_assets/card1.jpg" alt="Captain America: The Winter Soldier">
+                <img class="movie-card-list" src="moviePage_assets/card2.jpg" alt="Uncharted">
+                <img class="movie-card-list" src="moviePage_assets/card3.jpg" alt="Attack on Titan">
+                <img class="movie-card-list" src="moviePage_assets/card4.jpg" alt="Haikyu!!">
+            <!-- </li>
+            <li class="card-list"> -->
+                <img class="movie-card-list" src="moviePage_assets/card5.jpg" alt="Cells at Work!">
+                <img class="movie-card-list" src="moviePage_assets/card6.jpg" alt="Avatar: The Way of Water">
+                <img class="movie-card-list" src="moviePage_assets/card7.jpg" alt="Pacific Rim">
+                <img class="movie-card-list" src="moviePage_assets/card8.jpg" alt="Agak Laen">
+            </li>
+        </ul>
+    </div>
+
+    <!-- REVIEWS/COMMENTS -->
+    <div class="review">
+        <div class="user-review">
+            <h2>Review</h2>
+            <div class="user">
+                <div class="user-profile">
+                    <i class="fas fa-user"></i>
+                </div>
+                <textarea rows="1" cols="50" class="input-review" placeholder="Add a review"></textarea>
+            </div>
+            <div class="review-button">
+                <button class="rates">
+                    <i class="fas fa-thumbs-up"></i>
+                    <span class="rates">69%</span>
+                    <i class="fas fa-thumbs-down"></i>
+                    <span class="rates">31%</span>
+                </button>
+                <button class="post-review">Send</button>
+            </div>
+        </div>
+    
+        <div class="other-review">
+            <div class="posted-review">
+                <div class="user-profile">
+                    <i class="fas fa-user"></i>
+                    <span class="username">Mai_M4</span>
+                    <i class="fas fa-thumbs-up"></i>
+                    <span class="time">2 hours ago</span>
+                </div>
+                <div class="review-content">
+                    <p>This is one of the reviews of all time.</p>
+                </div>
+            </div>
+            
+            <div class="posted-review">
+                <div class="user-profile">
+                    <i class="fas fa-user"></i>
+                    <span class="username">LSTRsimp</span>
+                    <i class="fas fa-thumbs-up"></i>
+                    <span class="time">13 hours ago</span>
+                </div>
+                <div class="review-content">
+                    <p>OMG, He's literally me</p>
+                </div>
+            </div>
+            
+            <div class="posted-review">
+                <div class="user-profile">
+                    <i class="fas fa-user"></i>
+                    <span class="username">elgato420</span>
+                    <i class="fas fa-thumbs-up"></i>
+                    <span class="time">1 day ago</span>
+                </div>
+                <div class="review-content">
+                    <p>mao.</p>
+                </div>
+            </div>
+            
+            <div class="posted-review">
+                <div class="user-profile">
+                    <i class="fas fa-user"></i>
+                    <span class="username">An94</span>
+                    <i class="fas fa-thumbs-up"></i>
+                    <span class="time">7 hours ago</span>
+                </div>
+                <div class="review-content">
+                    <p>It sucks. Not Depressing enough</p>
+                </div>
+            </div>
+            
+            <div class="posted-review">
+                <div class="user-profile">
+                    <i class="fas fa-user"></i>
+                    <span class="username">wickyDoe_21</span>
+                    <i class="fas fa-thumbs-up"></i>
+                    <span class="time">21 hours ago</span>
+                </div>
+                <div class="review-content">
+                    <p>Nah, this is peak.</p>
+                </div>
+            </div>
+            
+            <div class="posted-review">
+                <div class="user-profile">
+                    <i class="fas fa-user"></i>
+                    <span class="username">Heisenburg</span>
+                    <i class="fas fa-thumbs-up"></i>
+                    <span class="time">5 weeks ago</span>
+                </div>
+                <div class="review-content">
+                    <p>He looks like a good Joe</p>
+                </div>
+            </div>
+            
+            <div class="posted-review">
+                <div class="user-profile">
+                    <i class="fas fa-user"></i>
+                    <span class="username">StockholmDoomer2</span>
+                    <i class="fas fa-thumbs-up"></i>
+                    <span class="time">20 years ago</span>
+                </div>
+                <div class="review-content">
+                    <p>typical morning walk in Shanghai</p>
+                </div>
+            </div>
+            
+            <div class="posted-review">
+                <div class="user-profile">
+                    <i class="fas fa-user"></i>
+                    <span class="username">ACfan_2004</span>
+                    <i class="fas fa-thumbs-up"></i>
+                    <span class="time">29 days ago</span>
+                </div>
+                <div class="review-content">
+                    <p>POV: You live in Los Angles</p>
+                </div>
+            </div>
+            
+            <div class="posted-review">
+                <div class="user-profile">
+                    <i class="fas fa-user"></i>
+                    <span class="username">Cheesato</span>
+                    <i class="fas fa-thumbs-down"></i>
+                    <span class="time">11 months ago</span>
+                </div>
+                <div class="review-content">
+                    <p>still gay</p>
+                </div>
+            </div>
+    </div>
+
+    </div>
+
+</body>
+</html>
