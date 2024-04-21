@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="StyleSignUp.css">
+    <script src="./SignUpCheck.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <div class="bagian-kiri">
+            <img id="img_kiri" src="./Asset/GambarKiriLogin.png" alt="BStation Login Image">
+        </div>
+        <div class="bagian-kanan">
+            <h2 id="title_Welcome">Welcome !</h2>
+            <h4 id="title_plsLogin">create your account!</h4>
+            <div class="container">
+                <form id="sign-up-form">
+                    <label for="email" id="labelEmail">Email</label><br>
+                    <div id="balokBiru-email"></div>
+                    <input type="email" id="email"><br>
+                    
+                    <label for="password" id="labelPw">Password</label><br>
+                    <div id="balokBiru-Pw"></div>
+                    <input type="password" id="password"><br>
+                    
+                    <label for="confirm-password" id="labelConfirmPw">Confirm Password</label><br>
+                    <div id="balokBiru-ConfirmPw"></div>
+                    <input type="password" id="confirm-password"><br>
+
+                    <div class="error">
+                        <label id="error-txt"></label>
+                    </div>
+
+                    <br>
+                    <input type="checkbox" id="rememberMe"><label for="rememberMe" id="labelRemember">remember me</label>
+
+                    <button type="submit">SIGN UP</button><br>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

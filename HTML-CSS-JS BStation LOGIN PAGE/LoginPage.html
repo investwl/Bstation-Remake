@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="StyleLogin.css">
+    <script src="./LoginCheck.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <div class="bagian-kiri">
+            <img id="img_kiri" src="./Asset/GambarKiriLogin.png" alt="BStation Login Image">
+        </div>
+        <div class="bagian-kanan">
+            <h2 id="title_Welcome">Welcome !</h2>
+            <h4 id="title_plsLogin">please login to your account</h4>
+            <div class="container">
+                <form id="login-form">
+                    <label for="email" id="labelEmail">Email</label><br>
+                    <div id="balokBiru-email"></div>
+                    <input type="email" id="email"><br>
+                    <label for="password" id="labelPw">Password</label><br>
+                    <div id="balokBiru-Pw"></div>
+                    <input type="password" id="password"><br>
+                    <br>
+                    <input type="checkbox" id="rememberMe"><label for="rememberMe" id="labelRemember">remember me</label>
+                    <label id="forgotPw"><u>forgot password?</u></label><br>
+                    <div class="error">
+                        <label id="error-txt"></label>
+                    </div>
+                    <button type="submit">LOG IN</button><br>
+                    <label id="loginWith">or login with</label><br>
+                    <div id="google">
+                        <img id="googleimg" src="./Asset/Logo Google.png">
+                    </div>
+                    <lable id="DHA">Don't have account?</lable>
+                    <a href="./SignUpPage.html" id="SignUpLink">Sign Up</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
