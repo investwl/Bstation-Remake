@@ -9,7 +9,7 @@ body{
     background-color: white;
 }
 
-li, a{
+.navbar-link{
     font-weight: 500;
     font-size: 16px;
     color: #292922;
@@ -25,18 +25,9 @@ header{
     background-color: white;
 }
 
-h4{
-    bottom: 50px;
-    left: 40px;
-    position: absolute;
-    color: white;
-}
-
 .logo{
     max-width : 100px;
     max-height : 100px;
-    /* display :none ; */
-    /* margin-right: auto; */
     cursor: pointer;
     background-color: white;
 }
@@ -65,29 +56,16 @@ h4{
     margin-right: 20px;
 }
 
+#search{
+    padding-left: 500px;
+}
+
+
 .main-card-div{
     position: relative;
     text-align: center;
     color: white;
-}
-
-.for-you-div{
-    display: flex;
-}
-
-/* #watchlater{
-    padding-right: 200px;
-}
-
-#search{
-    display: absolute;
-    padding-left : 100px;
-    /* margin-left: 40px; */
-    /* padding-left: 400px; 
-} */
-
-#search{
-    padding-left: 500px;
+    margin : 0;
 }
 
 #main-card{
@@ -132,8 +110,192 @@ h4{
     position: absolute;
 }
 
-#fycard{
-    width: 268px;
+/* transisi for you text */
+
+#for-you-text{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left : 26px;
+    height: 10px;
+    margin-top: 20px;
+}
+
+
+/* diatas buat navbar */
+
+
+/* dibawah buat movie card yg banyak ada 8 diatas show more */
+
+.for-you-vid {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.vids {
+    position: relative;
+    overflow: hidden;
+    display: flex;
     height: 168px;
-    margin: 22px;
+    width: 268px;
+    border-radius: 8px;
+    margin: 25px;
+}
+
+.thumbnail {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    z-index: -1;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, black, transparent 60%);
+    opacity: 0;
+}
+
+.info-container:hover {
+    opacity: 1;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 16px 18px 16px 18px;
+    color: white;
+    font-size: 15px;
+}
+
+.views-rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+    gap: 15px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon {
+    height: 15px;
+    width: 15px;
+}
+
+.video-title{
+    font-weight: bolder;
+}
+
+.separator-show-more{
+    display: inline;
+}
+
+.show-more{
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    margin-left: 40%;
+    padding: 0px 50px 0px 50px;
+    border: 1px solid ;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+#line-for-more{
+    position: absolute;
+    color: black;
+    height: 10px;
+}
+
+#v-down{
+    font-size: 24px;
+    font-weight: normal;
+    display: inline;
+    color: black;
+}
+
+/* dibawah bagian trending */
+.trending{
+    display: inline;
+}
+
+.trending-text{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left : 26px;
+}
+
+/* auto moving image */
+.slideshow-container {
+    position: relative;
+    margin: auto;
+}
+
+.active {
+background-color: #717171;
+}
+
+.fade {
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+.text {font-size: 11px}
+}
+
+/* top 5 movie n show */
+.the-top-cards{
+    display: flex;
+}
+
+#top5-text{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left : 26px;
+    height: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.top-card{
+    width: 209px;
+    height: 335px;
+    margin: 20px;
+}
+
+.top-card:hover{
+    box-shadow: 5px 5px 5px;
+}
+
+/* recently added */
+#recently-added-text{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left : 26px;
+    height: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
