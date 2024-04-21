@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bstation</title>
+        <link rel="icon" type="image/x-icon" href="images/icon_title_bstation.png">
+        <link rel="stylesheet" href="./styles.css">
+        <!-- ternyata kalo mau punya icon tinggal import aja font awesome juga bisa -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <!-- mau masukkin search logo dan ga berantakan -->
+            <img class="logo" src="./images/bstation_logo.png" alt="logo">
+            <nav id="">
+                <ul class="links_for_nav">
+                    <li class="navbar-link"><a href="#" class="navbar-link">Trending</a></li>
+                    <li class="navbar-link"><a href="#" class="navbar-link">Categories</a></li>
+                    <li class="navbar-link"><a href="#" class="navbar-link">Watch Later</a></li>
+                </ul>
+            </nav>
+            <i class="fa fa-search" id="search" style="font-size: 24px"></i>
+            <a href="#"><img src="./images/profile_logo.png" class="profile" alt="profile"></a>
+        </header>
+        <!-- ini mau dibuat bagian yg video card gede bgt yg signalis kalo figma -->
+        <div class="main-card-div">
+            <!-- mau bikin kalo click perginya ke page buat nonton -->
+            <a href="movie-page.html"><img src="./images/SIGNALIS-Elster-5 (2).png" id="main-card" alt="Main Movie Card"></a>
+            <p id="main-text">SIGNALIS : Depths of Sierpinski</p>
+            <!-- nanti kalo di click class nya fa fa-thumbs-up -->
+            <i class="fa fa-thumbs-o-up" id="main-thumb-up" style="font-size:24px"></i>
+            <p id="main-up-num">69%</p>
+            <!-- nanti kalo di click class nya fa fa-thumbs-down -->
+            <i class="fa fa-thumbs-o-down" id="main-thumb-down" style="font-size: 24px"></i>
+            <p id="main-down-num">31%</p>
+        </div>
+        <!-- ini cuma buat tulisan for you nya doang -->
+        <p id="for-you-text">For you</p>
+        <div class="for-you-vid">
+            <div class="vids">
+                <!-- add a href to img to movie page -->
+                <img class="thumbnail" src="images/solo-laveling.png">
+                <div class="info-container">
+                    <div class="info">
+                        <a class="video-title">Video Title</a>
+                        <div class="views-rating">
+                            <a>69K Views</a>
+                            <div class="rating">
+                                <img class="icon" src="images/like-temp.png">
+                                <a>69%</a>
+                            </div>
+                            <div class="rating">
+                                <img class="icon" src="images/dislike-temp.png">
+                                <a>31%</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vids">
+                <img class="thumbnail" src="images/solo-laveling.png">
+                <div class="info-container">
+                    <div class="info">
+                        <a class="video-title">Video Title</a>
+                        <div class="views-rating">
+                            <a>69K Views</a>
+                            <div class="rating">
+                                <img class="icon" src="images/like-temp.png">
+                                <a>69%</a>
+                            </div>
+                            <div class="rating">
+                                <img class="icon" src="images/dislike-temp.png">
+                                <a>31%</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vids">
+                <img class="thumbnail" src="images/solo-laveling.png">
+                <div class="info-container">
+                    <div class="info">
+                        <a class="video-title">Video Title</a>
+                        <div class="views-rating">
+                            <a>69K Views</a>
+                            <div class="rating">
+                                <img class="icon" src="images/like-temp.png">
+                                <a>69%</a>
+                            </div>
+                            <div class="rating">
+                                <img class="icon" src="images/dislike-temp.png">
+                                <a>31%</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vids">
+                <img class="thumbnail" src="images/solo-laveling.png">
+                <div class="info-container">
+                    <div class="info">
+                        <a class="video-title">Video Title</a>
+                        <div class="views-rating">
+                            <a>69K Views</a>
+                            <div class="rating">
+                                <img class="icon" src="images/like-temp.png">
+                                <a>69%</a>
+                            </div>
+                            <div class="rating">
+                                <img class="icon" src="images/dislike-temp.png">
+                                <a>31%</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="for-you-vid">
+            <div class="vids">
+                <!-- add a href to img to movie page -->
+                <img class="thumbnail" src="images/solo-laveling.png">
+                <div class="info-container">
+                    <div class="info">
+                        <a class="video-title">Video Title</a>
+                        <div class="views-rating">
+                            <a>69K Views</a>
+                            <div class="rating">
+                                <img class="icon" src="images/like-temp.png">
+                                <a>69%</a>
+                            </div>
+                            <div class="rating">
+                                <img class="icon" src="images/dislike-temp.png">
+                                <a>31%</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vids">
+                <img class="thumbnail" src="images/solo-laveling.png">
+                <div class="info-container">
+                    <div class="info">
+                        <a class="video-title">Video Title</a>
+                        <div class="views-rating">
+                            <a>69K Views</a>
+                            <div class="rating">
+                                <img class="icon" src="images/like-temp.png">
+                                <a>69%</a>
+                            </div>
+                            <div class="rating">
+                                <img class="icon" src="images/dislike-temp.png">
+                                <a>31%</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vids">
+                <img class="thumbnail" src="images/solo-laveling.png">
+                <div class="info-container">
+                    <div class="info">
+                        <a class="video-title">Video Title</a>
+                        <div class="views-rating">
+                            <a>69K Views</a>
+                            <div class="rating">
+                                <img class="icon" src="images/like-temp.png">
+                                <a>69%</a>
+                            </div>
+                            <div class="rating">
+                                <img class="icon" src="images/dislike-temp.png">
+                                <a>31%</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="vids">
+                <img class="thumbnail" src="images/solo-laveling.png">
+                <div class="info-container">
+                    <div class="info">
+                        <a class="video-title">Video Title</a>
+                        <div class="views-rating">
+                            <a>69K Views</a>
+                            <div class="rating">
+                                <img class="icon" src="images/like-temp.png">
+                                <a>69%</a>
+                            </div>
+                            <div class="rating">
+                                <img class="icon" src="images/dislike-temp.png">
+                                <a>31%</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="separator-show-more">
+            <button class="show-more" onclick="popMoreVid()">Show more <p id="v-down">v</p></button>
+            <!-- placeholder buat result keluarin more video -->
+
+        </div>
+        <br>
+        <div class="trending">
+            <p class="trending-text">Trending</p>
+            <div class="for-you-vid">
+                <div class="vids">
+                    <!-- add a href to img to movie page -->
+                    <img class="thumbnail" src="images/solo-laveling.png">
+                    <div class="info-container">
+                        <div class="info">
+                            <a class="video-title">Video Title</a>
+                            <div class="views-rating">
+                                <a>69K Views</a>
+                                <div class="rating">
+                                    <img class="icon" src="images/like-temp.png">
+                                    <a>69%</a>
+                                </div>
+                                <div class="rating">
+                                    <img class="icon" src="images/dislike-temp.png">
+                                    <a>31%</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vids">
+                    <img class="thumbnail" src="images/solo-laveling.png">
+                    <div class="info-container">
+                        <div class="info">
+                            <a class="video-title">Video Title</a>
+                            <div class="views-rating">
+                                <a>69K Views</a>
+                                <div class="rating">
+                                    <img class="icon" src="images/like-temp.png">
+                                    <a>69%</a>
+                                </div>
+                                <div class="rating">
+                                    <img class="icon" src="images/dislike-temp.png">
+                                    <a>31%</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vids">
+                    <img class="thumbnail" src="images/solo-laveling.png">
+                    <div class="info-container">
+                        <div class="info">
+                            <a class="video-title">Video Title</a>
+                            <div class="views-rating">
+                                <a>69K Views</a>
+                                <div class="rating">
+                                    <img class="icon" src="images/like-temp.png">
+                                    <a>69%</a>
+                                </div>
+                                <div class="rating">
+                                    <img class="icon" src="images/dislike-temp.png">
+                                    <a>31%</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vids">
+                    <img class="thumbnail" src="images/solo-laveling.png">
+                    <div class="info-container">
+                        <div class="info">
+                            <a class="video-title">Video Title</a>
+                            <div class="views-rating">
+                                <a>69K Views</a>
+                                <div class="rating">
+                                    <img class="icon" src="images/like-temp.png">
+                                    <a>69%</a>
+                                </div>
+                                <div class="rating">
+                                    <img class="icon" src="images/dislike-temp.png">
+                                    <a>31%</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <a href="#">
+                    <img src="images/action-banner.png" style="width: 100%;">
+                </a>
+            </div>
+            
+            <div class="mySlides fade">
+                <a href="#">
+                    <img src="images/anime-banner.png"" style="width:100%">
+                </a>
+            </div>
+            
+            <div class="mySlides fade">
+                <a href="#">
+                    <img src="images/drama-banner.png" style="width:100%">
+                </a>
+            </div>
+            
+            <div class="mySlides fade">
+                <a href="#">
+                    <img src="images/fantasy-banner.png" style="width:100%">
+                </a>
+            </div>
+            
+        </div>
+        <br>
+        <div class="top-movie-and-show">
+            <p id="top5-text">Top 5 Movies & Shows</p>
+            <div class="the-top-cards">
+                <img src="images/MV5BMDg2YzI0ODctYjliMy00NTU0LTkxODYtYTNkNjQwMzVmOTcxXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_.jpg" alt="" class="top-card">
+                <img src="images/MV5BMDg2YzI0ODctYjliMy00NTU0LTkxODYtYTNkNjQwMzVmOTcxXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_.jpg" alt="" class="top-card">
+                <img src="images/MV5BMDg2YzI0ODctYjliMy00NTU0LTkxODYtYTNkNjQwMzVmOTcxXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_.jpg" alt="" class="top-card">
+                <img src="images/MV5BMDg2YzI0ODctYjliMy00NTU0LTkxODYtYTNkNjQwMzVmOTcxXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_.jpg" alt="" class="top-card">
+                <img src="images/MV5BMDg2YzI0ODctYjliMy00NTU0LTkxODYtYTNkNjQwMzVmOTcxXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_.jpg" alt="" class="top-card">
+            </div>
+        </div>
+        <div class="newcomers">
+            <p id="recently-added-text">Recently Added</p>
+            <div class="for-you-vid">
+                <div class="vids">
+                    <!-- add a href to img to movie page -->
+                    <img class="thumbnail" src="images/solo-laveling.png">
+                    <div class="info-container">
+                        <div class="info">
+                            <a class="video-title">Video Title</a>
+                            <div class="views-rating">
+                                <a>69K Views</a>
+                                <div class="rating">
+                                    <img class="icon" src="images/like-temp.png">
+                                    <a>69%</a>
+                                </div>
+                                <div class="rating">
+                                    <img class="icon" src="images/dislike-temp.png">
+                                    <a>31%</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vids">
+                    <img class="thumbnail" src="images/solo-laveling.png">
+                    <div class="info-container">
+                        <div class="info">
+                            <a class="video-title">Video Title</a>
+                            <div class="views-rating">
+                                <a>69K Views</a>
+                                <div class="rating">
+                                    <img class="icon" src="images/like-temp.png">
+                                    <a>69%</a>
+                                </div>
+                                <div class="rating">
+                                    <img class="icon" src="images/dislike-temp.png">
+                                    <a>31%</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vids">
+                    <img class="thumbnail" src="images/solo-laveling.png">
+                    <div class="info-container">
+                        <div class="info">
+                            <a class="video-title">Video Title</a>
+                            <div class="views-rating">
+                                <a>69K Views</a>
+                                <div class="rating">
+                                    <img class="icon" src="images/like-temp.png">
+                                    <a>69%</a>
+                                </div>
+                                <div class="rating">
+                                    <img class="icon" src="images/dislike-temp.png">
+                                    <a>31%</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vids">
+                    <img class="thumbnail" src="images/solo-laveling.png">
+                    <div class="info-container">
+                        <div class="info">
+                            <a class="video-title">Video Title</a>
+                            <div class="views-rating">
+                                <a>69K Views</a>
+                                <div class="rating">
+                                    <img class="icon" src="images/like-temp.png">
+                                    <a>69%</a>
+                                </div>
+                                <div class="rating">
+                                    <img class="icon" src="images/dislike-temp.png">
+                                    <a>31%</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>

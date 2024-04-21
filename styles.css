@@ -1,0 +1,301 @@
+*{
+    box-sizing: border-box;
+    margin : 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+.navbar-link{
+    font-weight: 500;
+    font-size: 16px;
+    color: #292922;
+    text-decoration: none;
+    background-color: white;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+}
+
+.logo{
+    max-width : 100px;
+    max-height : 100px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.links_for_nav{
+    list-style: none;
+    background-color: white;
+}
+
+.links_for_nav li{
+    display: inline-block;
+    padding: 0px 30px;
+    background-color: white;
+}
+
+.links_for_nav li a:hover{
+    color: #0088a9;
+}
+
+.profile{
+    width : 50px;
+    height : 50px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+#search{
+    padding-left: 500px;
+}
+
+
+.main-card-div{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin : 0;
+}
+
+#main-card{
+    width: 100%;
+    height: 100%;
+    display: inline;
+}
+
+#main-text{
+    bottom: 150px;
+    left: 40px;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    font-weight: bolder;
+    /* background-color: #e50001; */
+}
+
+#main-thumb-up{
+    bottom: 125px;
+    left: 40px;
+    position: absolute;
+}
+
+#main-thumb-down{
+    bottom: 125px;
+    left: 120px;
+    position: absolute;
+}
+
+#main-up-num{
+    font-size: 15px;
+    bottom: 128px;
+    left: 70px;
+    position: absolute;
+}
+
+#main-down-num{
+    font-size: 15px;
+    bottom: 128px;
+    left: 150px;
+    position: absolute;
+}
+
+/* transisi for you text */
+
+#for-you-text{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left : 26px;
+    height: 10px;
+    margin-top: 20px;
+}
+
+
+/* diatas buat navbar */
+
+
+/* dibawah buat movie card yg banyak ada 8 diatas show more */
+
+.for-you-vid {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.vids {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    height: 168px;
+    width: 268px;
+    border-radius: 8px;
+    margin: 25px;
+}
+
+.thumbnail {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    z-index: -1;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, black, transparent 60%);
+    opacity: 0;
+}
+
+.info-container:hover {
+    opacity: 1;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 16px 18px 16px 18px;
+    color: white;
+    font-size: 15px;
+}
+
+.views-rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+    gap: 15px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon {
+    height: 15px;
+    width: 15px;
+}
+
+.video-title{
+    font-weight: bolder;
+}
+
+.separator-show-more{
+    display: inline;
+}
+
+.show-more{
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    margin-left: 40%;
+    padding: 0px 50px 0px 50px;
+    border: 1px solid ;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+#line-for-more{
+    position: absolute;
+    color: black;
+    height: 10px;
+}
+
+#v-down{
+    font-size: 24px;
+    font-weight: normal;
+    display: inline;
+    color: black;
+}
+
+/* dibawah bagian trending */
+.trending{
+    display: inline;
+}
+
+.trending-text{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left : 26px;
+}
+
+/* auto moving image */
+.slideshow-container {
+    position: relative;
+    margin: auto;
+}
+
+.active {
+background-color: #717171;
+}
+
+.fade {
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+.text {font-size: 11px}
+}
+
+/* top 5 movie n show */
+.the-top-cards{
+    display: flex;
+}
+
+#top5-text{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left : 26px;
+    height: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.top-card{
+    width: 209px;
+    height: 335px;
+    margin: 20px;
+}
+
+.top-card:hover{
+    box-shadow: 5px 5px 5px;
+}
+
+/* recently added */
+#recently-added-text{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left : 26px;
+    height: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
