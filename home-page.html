@@ -10,19 +10,29 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <header>
-            <!-- mau masukkin search logo dan ga berantakan -->
-            <img class="logo" src="./images/bstation_logo.png" alt="logo">
-            <nav id="">
-                <ul class="links_for_nav">
-                    <li class="navbar-link"><a href="#" class="navbar-link">Trending</a></li>
-                    <li class="navbar-link"><a href="#" class="navbar-link">Categories</a></li>
-                    <li class="navbar-link"><a href="#" class="navbar-link">Watch Later</a></li>
-                </ul>
-            </nav>
-            <i class="fa fa-search" id="search" style="font-size: 24px"></i>
-            <a href="#"><img src="./images/profile_logo.png" class="profile" alt="profile"></a>
-        </header>
+        <div class="header">
+            <div class="divbstar-header-left">
+                  <img class="link-image" alt="3 Lines Bar" src="images/bar 3 garis.svg">
+                  <img class="button-icon" alt="Bstation Logo" src="images/logo bstation.svg">     
+            </div>
+            <div class="categories"><a href="category-page.html" class="navbar-link">Categories</a></div>
+            <div class="watch-later"><a href="watch-later-page.html" class="navbar-link">Watch Later</a></div>
+            <div class="trending"><a href="trending-page.html" class="navbar-link">Trending</a></div>
+            <div class="divbstar-header-search-bar">
+                  <div class="input">
+                        <div class="divplaceholder">
+                              <input class="cari" placeholder="Cari" type="text" />
+                        </div>
+                  </div>
+                  <img class="divbstar-header-search-bar-b-icon" alt="Search icon" src="images/searching.svg">
+            </div>
+            <div class="divbstar-header-actions">
+                  <img class="div-icon" alt="Profile icon" src="images/profile.svg">
+                  
+                  <img class="image-icon4" alt="Add video icon" src="images/add vidio.svg">
+                  
+            </div>
+        </div>
         <!-- ini mau dibuat bagian yg video card gede bgt yg signalis kalo figma -->
         <div class="slideshow-container">
 
@@ -231,7 +241,7 @@
 
         </div>
         <br>
-        <div class="trending">
+        <div class="trending-div">
             <p class="trending-text">Trending</p>
             <div class="for-you-vid">
                 <div class="vids">

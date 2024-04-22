@@ -9,44 +9,6 @@ body{
     background-color: white;
 }
 
-.navbar-link{
-    font-weight: 500;
-    font-size: 16px;
-    color: #292922;
-    text-decoration: none;
-    background-color: white;
-}
-
-header{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    padding: 10px 20px 10px 20px;
-    background-color: white;
-}
-
-.logo{
-    max-width : 100px;
-    max-height : 100px;
-    cursor: pointer;
-    background-color: white;
-}
-
-.links_for_nav{
-    list-style: none;
-    background-color: white;
-}
-
-.links_for_nav li{
-    display: inline-block;
-    padding: 0px 30px;
-    background-color: white;
-}
-
-.links_for_nav li a:hover{
-    color: #0088a9;
-}
-
 .profile{
     width : 50px;
     height : 50px;
@@ -60,6 +22,202 @@ header{
     padding-left: 500px;
 }
 
+/* start of navbar */
+
+.header{
+    background-color: white;
+    border-bottom: 1px solid #eee;
+    top: 0px;
+    left: 0px;
+    height: 64px;
+    font-size: 12px;
+    bottom: 0.667px;
+    font-family: Roboto;
+}
+
+.divbstar-header-left {
+    position: absolute;
+    display: inline-flex;
+    top: 24px;
+    left: 16px;
+    right: 19.332;
+    bottom: 4px;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.link-image {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.button-icon{
+    width: 87.333px;
+    height: 16px;
+    cursor:pointer;
+}
+
+.watch-later {
+    position: absolute;
+    top: 26px;
+    bottom: 24px;
+    left: 300.663px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70px;
+    height: 14px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.80);
+}
+
+.trending {
+    position: absolute;
+    top: 26px;
+    bottom: 24px;
+    left: 166.666px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 44px;
+    height: 14px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.80);
+}
+
+.cari {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    width: 17.332px;
+    height: 10.666px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    flex: 1;
+    overflow: hidden;
+    flex-direction: row;
+    font-family: Roboto;
+    font-size: 11px;
+    color: #000000;
+    min-width: 250px;
+}
+
+.divplaceholder {
+    position: absolute;
+    width: calc(100% - 32.664px);
+    top: 1.333px;
+    right: 16.664px;
+    left: 6px;
+    height: 10.666px;
+    overflow: hidden;
+}
+
+.input {
+    position: absolute;
+    width: calc(100% - 49.333px);
+    top: 6.666px;
+    right: 48.664px;
+    left: 0.666px;
+    background-color: #fff;
+    border-right: 1px solid rgba(153, 153, 153, 0.3);
+    box-sizing: border-box;
+    height: 13.332px;
+}
+
+.divbstar-header-search-bar-b-icon {
+    position: absolute;
+    width: calc(100% - 350.663px);
+    top: 0.666px;
+    right: 0.666px;
+    left: 350px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 25.332px;
+    cursor: pointer;
+}
+.divbstar-header-search-bar {
+    position: absolute;
+    width: calc(100% - 881.333px);
+    top: 18.664px;
+    right: 97.333px;
+    left: 784px;
+    border-radius: 13.332px;
+    border: 1px solid rgba(153, 153, 153, 0.3);
+    box-sizing: border-box;
+    height: 26.664px;
+    overflow: hidden;
+    font-size: 9.332px;
+    color: #999;
+}
+.div-icon {
+    position: absolute;
+    left: 37.246px;
+    width: 34px;
+    height: 21.332px;
+    top: 1px;
+}
+.image-icon4 {
+    position: absolute;
+    top: 2px;
+    left: 11.113px;
+    width: 19.332px;
+    height: 19.332px;
+    overflow: hidden;
+}
+.divbstar-header-actions {
+    position: absolute;
+    height: 100%;
+    top: 20px;
+    bottom: 0px;
+    left: 93%;
+    cursor: pointer;
+}
+
+.categories {
+    position: absolute;
+    top: 26px;
+    bottom: 24px;
+    left: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 52px;
+    height: 14px;
+    cursor: pointer;
+    font-size: 16;
+    color: rgba(0, 0, 0, 0.80);
+}
+
+.navbar-link{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-link:active{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-link:hover{
+    color:rgb(58, 169, 132);
+    text-decoration: none;
+}
+
+.navbar-link:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-link:visited:hover{
+    color: rgb(58, 169, 132);
+    text-decoration: none;
+}
+
+/* end of navbar */
 
 .main-card-div{
     position: relative;
@@ -125,8 +283,6 @@ header{
     margin-top: 20px;
 }
 
-
-/* diatas buat navbar */
 
 
 /* dibawah buat movie card yg banyak ada 8 diatas show more */
@@ -233,7 +389,7 @@ header{
 }
 
 /* dibawah bagian trending */
-.trending{
+.trending-div{
     display: inline;
 }
 
