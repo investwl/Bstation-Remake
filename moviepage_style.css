@@ -208,18 +208,17 @@ p{
 
 /* MOVIE PLAYER */
 .movie-player{
-    width: 100%;
+    width: auto;
     margin: 0 auto;
 }
 
 .movie-player video{
     width: 100%;
-    height: auto;
 }
 
 /* MOVIE INFO */
 .movie-info{
-    padding: 20px;
+    padding: 30px;
 }
 
 .movie-title{
@@ -298,25 +297,16 @@ p{
 .movie-card{
    display: flex;
    flex-wrap: wrap;
-   /* width: 100%; */
-   /* justify-content: center; */
    max-width: 100%;
-   background-color: #f2f2f2;
 }
 
 .card-list{
-    padding: 10px;
+    padding: 20px 10px 20px 30px;
 }
 
 .movie-card-list{
-    /* width: 270px;
-    height: 150px; */
-    /* width: 270px;
-    flex: 1;
     height: 150px;
-    object-fit: cover; */
-    height: 200px;
-    width: 400px;
+    width: 300px;
     border-radius: 5px;
     cursor: pointer;
 }
