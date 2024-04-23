@@ -106,3 +106,10 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
+const navigate = document.querySelectorAll('.card-list')
+navigate.forEach(function(div) {
+  div.addEventListener('click', function() {
+    window.location.href = 'video-page.html'
+  })
+})

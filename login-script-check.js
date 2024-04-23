@@ -20,11 +20,8 @@ form.addEventListener("submit",function(e){
     else if(!validatePassword(password.value)){
         errorText.innerText = "Password must at least contains 1 digit, 1 capital letter, and 1 lowercase letter"
     }
-    else if(email.value == "user@email.com" && password.value == "User123"){
-        window.location.href = "https://youtu.be/oZ09TpW6eJw?si=Yrd8RgRRmOFDY6ZU"
-    }
     else{
-        errorText.innerText = "Account does not exist!!"
+        window.location.href = "home-page.html"
     }
 })
 

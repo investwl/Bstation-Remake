@@ -46,3 +46,10 @@ function toggleRec() {
       img.src = "images/chevron-down.svg"
   }
 }
+
+const navigate = document.querySelectorAll('.vids')
+navigate.forEach(function(div) {
+  div.addEventListener('click', function() {
+    window.location.href = 'video-page.html'
+  })
+})
