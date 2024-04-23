@@ -163,6 +163,7 @@ p{
     bottom: 0px;
     left: 1100px;
     cursor: pointer;
+    background-color: transparent;
 }
 
 .categories {
@@ -291,13 +292,16 @@ p{
 /* MOVIE RECOMMENDATIONS - MOVIE CARD */
 .rec h2{
     font-size: 24px;
-    margin: 5px 10px;
+    margin: 5px 25px;
 }
 
 .movie-card{
    display: flex;
    flex-wrap: wrap;
    /* width: 100%; */
+   /* justify-content: center; */
+   max-width: 100%;
+   background-color: #f2f2f2;
 }
 
 .card-list{
@@ -305,9 +309,15 @@ p{
 }
 
 .movie-card-list{
-    width: 270px;
+    /* width: 270px;
+    height: 150px; */
+    /* width: 270px;
+    flex: 1;
     height: 150px;
-    margin: 10px;
+    object-fit: cover; */
+    height: 200px;
+    width: 400px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -376,6 +386,16 @@ p{
     font-weight: bold;
     background-color: darkgrey;
 }
+
+/* .user-profile{
+    display: flex;
+    align-items: center;
+}
+
+.user-profile .fas.fa-user{
+    font-size: 20px;
+    margin-right: 5px;
+} */
 
 /* OTHER REVIEWS */
 .posted-review{
