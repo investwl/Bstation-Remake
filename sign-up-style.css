@@ -43,7 +43,7 @@
     top: 9px;
     left: 78px;
     color: rgb(115, 107, 107 , 1);
-    font-family: "Inter", sans-serif;
+    font-family: Roboto, sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -53,12 +53,12 @@
 .container{
     position: absolute;
     color: rgb(0, 0, 0 , 1);
-    font-family: "Inter", sans-serif;
+    font-family: Roboto, sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-variation-settings: "slnt" 0;
-    font-size: larger;
+    font-size: 20px;
     /* background-color:yellow; */
     top: 228px;
     left: 70px;
@@ -86,9 +86,9 @@ input[type="email"]{
     font-size: large;
     padding: 10px;
     left: 50px;
-    top: 4px;
+    top: 3px;
     background-color: rgb(187, 212, 230 , 1);
-    height: 43.5px;
+    height: 43px;
     width: 450px;
     border-color: transparent;
     border: none;
@@ -131,8 +131,9 @@ input:focus[type="password"], textarea:focus{
 
 #password{
     position: relative;
-    top: 22px;
+    top: 20px;
     left: 50px;
+    height: 43px;
 }
 
 #labelConfirmPw{
@@ -152,8 +153,9 @@ input:focus[type="password"], textarea:focus{
 
 #confirm-password{
     position: relative;
-    top: 40px;
+    top: 37px;
     left: 50px;
+    height: 43px;
 }
 
 input[type="checkbox"]{
