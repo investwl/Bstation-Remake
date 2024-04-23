@@ -145,7 +145,7 @@
 .divbstar-header-actions {
     position: absolute;
     height: 100%;
-    width: calc(100% - 972.399px);
+    width: auto;
     top: 0px;
     right: 13.313px;
     bottom: 0px;
@@ -185,6 +185,11 @@
 
 .navbar-link:visited{
     color: black;
+    text-decoration: none;
+}
+
+.navbar-link:visited:hover{
+    color:rgb(58, 169, 132);
     text-decoration: none;
 }
 

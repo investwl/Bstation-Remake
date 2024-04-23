@@ -4,45 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Page</title>
-    <link rel="icon" type="image/png" href="moviePage_assets/title.png">
+    <link rel="icon" type="image/x-icon" href="images/icon_title_bstation.png">
     <link rel="stylesheet" href="moviepage_style.css">
     <script src="moviepage_script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- NAVIGATION BAR - HEADER -->
-    <div class="navbar">
-        <div class="bars">
-            <i class="fas fa-bars"></i>
+    <div class="header">
+        <div class="divbstar-header-left">
+              <img class="link-image" alt="3 Lines Bar" src="images/bar 3 garis.svg">
+              <img class="button-icon" alt="Bstation Logo" src="images/logo bstation.svg">     
         </div>
-        <div class="logo">
-            <img src="moviePage_assets/logo.png" class="logo">
+        <div class="categories"><a href="category-page.html" class="navbar-link">Categories</a></div>
+        <div class="watch-later"><a href="watch-later-page.html" class="navbar-link">Watch Later</a></div>
+        <div class="trending"><a href="trending-page.html" class="navbar-link">Trending</a></div>
+        <div class="divbstar-header-search-bar">
+              <div class="input">
+                    <div class="divplaceholder">
+                          <input class="cari" placeholder="Cari" type="text" />
+                    </div>
+              </div>
+              <img class="divbstar-header-search-bar-b-icon" alt="Search icon" src="images/searching.svg">
         </div>
-        <nav class="menu">
-            <ul>
-                <li><a href="#">Trending</a></li>
-                <li><a href="#">Categories</a></li>
-                <li><a href="#">Watch Later</a></li>
-            </ul>
-        </nav>
-        <div class="search-bar">
-            <input type="text" name="Search" placeholder="Search">
-            <div class="search">
-                <i class="fa fa-search"></i>
-            </div>
-        </div>
-        <div class="profile">
-            <a href="#">
-                <i class="fas fa-user"></i>
-                <!-- <img src="profile.png" alt="profile" class="profile"> -->
-            </a>
+        <div class="divbstar-header-actions">
+              <img class="div-icon" alt="Profile icon" src="images/profile.svg">
+              
+              <img class="image-icon4" alt="Add video icon" src="images/add vidio.svg">
+              
         </div>
     </div>
 
     <!-- MOVIE PLAYER -->
     <div class="movie-player">
         <video controls>
-            <source src="moviePage_assets/VOICE.mp4" controls>
+            <source src="moviePage_assets/VOICE.mp4" controls muted>
         </video>
     </div>
 
@@ -58,20 +57,20 @@
                 <span class="rate">31%</span>
             </div>
             <div class="button">
-                <button class="download"><i class="fas fa-arrow-down"></i>Download</button>
-                <button class="save"><i class="fas fa-bookmark"></i>Save</button>
-                <button class="share"><i class="fas fa-share"></i>Share</button>
+                <button class="download"><i class="fas fa-arrow-down"></i> Download</button>
+                <button class="save"><i class="fas fa-bookmark"></i> Save</button>
+                <button class="share"><i class="fas fa-share"></i> Share</button>
             </div>
         </div>
         <div class="movie-desc">
             <p class="description">Popular detective Moo Jin Hyuk who is filled with guilt for his wife's death, works with professional voice profiler Kang Kwon Joo, whose father is killed, to solve a different crime, chasing for the serial killer responsible for the deaths of their family members. Popular detective Moo Jin Hyuk who is filled with guilt for his wife's death, works with professional voice profiler Kang Kwon Joo, whose father is killed, to solve a different crime, chasing for the serial killer responsible for the deaths of their family members. </p>
-            <button class="show-more">Show More<i class="fas fa-angle-down"></i></button>
+            <button class="show-more">Show More <i class="fas fa-angle-down"></i></button>
         </div>
     </div>
 
     <!-- OTHER VIDEOS -->
     <div class="rec">
-        <h2>Videos you may like</h2>
+        <h2 id="h2-text">Videos you may like</h2>
         <ul class="movie-card">
             <li class="card-list">
                 <img class="movie-card-list" src="moviePage_assets/card1.jpg" alt="Captain America: The Winter Soldier">
@@ -92,6 +91,7 @@
     <div class="review">
         <div class="user-review">
             <h2>Review</h2>
+            <br>
             <div class="user">
                 <div class="user-profile">
                     <i class="fas fa-user"></i>
@@ -101,9 +101,11 @@
             <div class="review-button">
                 <button class="rates">
                     <i class="fas fa-thumbs-up"></i>
-                    <span class="rates">69%</span>
+                    <span class="rate">69%</span>
+                </button>
+                <button class="rates">
                     <i class="fas fa-thumbs-down"></i>
-                    <span class="rates">31%</span>
+                    <span class="rate">31%</span>
                 </button>
                 <button class="post-review">Send</button>
             </div>
@@ -142,7 +144,7 @@
                     <span class="time">1 day ago</span>
                 </div>
                 <div class="review-content">
-                    <p>mao.</p>
+                    <p>lmao.</p>
                 </div>
             </div>
             
