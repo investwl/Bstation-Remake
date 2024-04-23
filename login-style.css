@@ -45,7 +45,7 @@
     top: 9px;
     left: 78px;
     color: rgb(115, 107, 107 , 1);
-    font-family: "Inter", sans-serif;
+    font-family: Roboto, sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -55,7 +55,7 @@
 .container{
     position: absolute;
     color: rgb(0, 0, 0 , 1);
-    font-family: "Inter", sans-serif;
+    font-family: Roboto, sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -88,7 +88,7 @@ input[type="email"]{
     font-size: large;
     padding: 10px;
     left: 50px;
-    top: 4px;
+    top: 5px;
     background-color: rgb(187, 212, 230 , 1);
     height: 43.5px;
     width: 450px;
@@ -121,10 +121,10 @@ input[type="password"]{
     position:relative;
     font-size: large;
     padding: 10px;
-    top: 22px;
+    top: 23.5px;
     left: 50px;
     background-color: rgb(187, 212, 230 , 1);
-    height: 43.5px;
+    height: 43px;
     width: 450px;
     border-color: transparent;
     border: none;
