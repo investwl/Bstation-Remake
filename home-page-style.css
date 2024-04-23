@@ -279,16 +279,19 @@ body{
 
 #for-you-text{
     color: black;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     padding-left : 26px;
     height: 10px;
     margin-top: 20px;
+    padding-bottom: 20px;
 }
 
 
 
 /* dibawah buat movie card yg banyak ada 8 diatas show more */
+
+
 
 .for-you-vid {
     position: relative;
@@ -302,8 +305,8 @@ body{
     position: relative;
     overflow: hidden;
     display: flex;
-    height: 168px;
-    width: 268px;
+    height: 200px;
+    width: 320px;
     border-radius: 8px;
     margin: 25px;
 }
@@ -363,19 +366,32 @@ body{
     font-weight: bolder;
 }
 
-.separator-show-more{
-    display: inline;
+.rec-show-more {
+    /* position: absolute; */
+    bottom: 0px;
+    background-color: white;
+    height: 35px;
+    width: 350px;
+    margin-top: 25px;
+    margin-left: 39%;
+    border: 1px solid;
+    border-radius: 80px;
+    border-color: #717171;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
 }
 
-.show-more{
-    background-color: white;
-    color: black;
-    font-size: 24px;
-    margin-left: 40%;
-    padding: 0px 50px 0px 50px;
-    border: 1px solid ;
-    border-radius: 25px;
-    font-weight: bold;
+#showmore-text{
+    font-size: 20px;
+}
+
+.rec-show-more img {
+    height: 30px;
+    width: 30px;
 }
 
 #line-for-more{
@@ -398,7 +414,7 @@ body{
 
 .trending-text{
     color: black;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     padding-left : 26px;
 }
@@ -430,11 +446,12 @@ to {opacity: 1}
 /* top 5 movie n show */
 .the-top-cards{
     display: flex;
+    padding-top: 10px;
 }
 
 #top5-text{
     color: black;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     padding-left : 26px;
     height: 10px;
@@ -443,9 +460,9 @@ to {opacity: 1}
 }
 
 .top-card{
-    width: 209px;
-    height: 335px;
-    margin: 20px;
+    width: 239px;
+    height: 365px;
+    margin: 10px 25px 10px 25px;
     border-radius: 5px;
 }
 
@@ -456,7 +473,7 @@ to {opacity: 1}
 /* recently added */
 #recently-added-text{
     color: black;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     padding-left : 26px;
     height: 10px;
