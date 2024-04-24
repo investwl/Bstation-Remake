@@ -53,3 +53,22 @@ navigate.forEach(function(div) {
     window.location.href = 'video-page.html'
   })
 })
+
+function toggleRec() {
+  var rec = document.querySelector('.recommend-vids')
+  var expand = document.querySelector('.rec-show-more')
+  var txt = expand.querySelector('a')
+  var img = expand.querySelector('img')
+  rec.classList.toggle('more')
+  if (rec.classList.contains('more')) {
+      rec.style.height = 'auto'
+      rec.style.paddingBottom = '45px'
+      txt.textContent = 'Show less'
+      img.src = "images/chevron-up.svg"
+  } else {
+      rec.style.height = '480px'
+      rec.style.paddingBottom = '0px'
+      txt.textContent = 'Show more'
+      img.src = "images/chevron-down.svg"
+  }
+}
