@@ -113,6 +113,10 @@
     height: 25.332px;
     cursor: pointer;
 }
+#main-logo{
+    padding-left: 20px;
+}
+
 .divbstar-header-search-bar {
     position: absolute;
     width: calc(100% - 881.333px);
@@ -125,6 +129,7 @@
     height: 26.664px;
     overflow: hidden;
     font-size: 9.332px;
+    z-index: 100;
     color: #999;
 }
 .div-icon {

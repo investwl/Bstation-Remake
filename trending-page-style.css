@@ -8,7 +8,7 @@ body{
 }
 
 .header{
-    position: sticky;
+    position: absolute;
     background-color: white;
     border-bottom: 1px solid #eee;
     top: 0px;
@@ -19,6 +19,10 @@ body{
     bottom: 0.667px;
     font-family: Roboto;
     z-index: 10;
+}
+
+#main-logo{
+    padding-left: 20px;
 }
 
 .divbstar-header-left {
@@ -135,6 +139,7 @@ body{
     overflow: hidden;
     font-size: 9.332px;
     color: #999;
+    z-index: 100;
 }
 .div-icon {
     position: absolute;
@@ -208,26 +213,30 @@ body{
 
 /* top three trending */
 
-#trending-image{
-    z-index: -1;
+#fire{
+    width: 100px;
+    height: 100px;
+    padding-top: 85px;
+    padding-left: 35%;
+    position: absolute;
 }
 
 #top-1{
     position: absolute;
-    top: 53%;
+    top: 48%;
     left: 39%;
 }
 
 #top-2{
     position: absolute;
     left: 7%;
-    top: 65%;
+    top: 60%;
 }
 
 #top-3{
     position: absolute;
     right: 7%;
-    top: 78%;
+    top: 73%;
 }
 
 .vids{
@@ -335,7 +344,17 @@ body{
 
 .bg {
     width: 100%;
-    height: 300px;
+    /* height: 300px; */
+    /* background-image: linear-gradient(rgb(107, 107, 107), white); */
+}
+
+#trending-h2{
+    color: black;
+    padding-top: 100px;
+    padding-left: 43%;
+    font-size: 80px;
+    font-weight: 500;
+    padding-bottom: 0px;
 }
 
 #other-trend-text{

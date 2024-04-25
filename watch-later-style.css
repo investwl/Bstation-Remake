@@ -129,8 +129,14 @@
     height: 26.664px;
     overflow: hidden;
     font-size: 9.332px;
+    z-index: 100;
     color: #999;
 }
+
+#main-logo{
+    padding-left: 20px;
+}
+
 .div-icon {
     position: absolute;
     top: calc(50% - 10.666px);
