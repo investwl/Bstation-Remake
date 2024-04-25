@@ -1,55 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Page</title>
-    <link rel="stylesheet" href="profile-page-style.css">
-    <script src="profile-page-check.js" defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Watch Later</title>
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <link rel="stylesheet"  href="watch-later-style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="title.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
+
     <div class="header">
         <div class="divbstar-header-left">
-            <img class="link-image" alt="3 Lines Bar" src="navbar/bar 3 garis.svg">
-            <a href="home-page.html"> <img class="button-icon" alt="Bstation Logo" src="navbar/logo bstation.svg"> </a>
+              <img class="link-image" alt="3 Lines Bar" src="images/bar 3 garis.svg">
+              <a href="home-page.html"><img class="button-icon" alt="Bstation Logo" src="images/logo bstation.svg"></a>
         </div>
         <div class="categories"><a href="category-page.html" class="navbar-link">Categories</a></div>
         <div class="watch-later"><a href="watch-later-page.html" class="navbar-link">Watch Later</a></div>
         <div class="trending"><a href="trending-page.html" class="navbar-link">Trending</a></div>
         <div class="divbstar-header-search-bar">
-            <div class="input">
+              <div class="input">
                     <div class="divplaceholder">
-                        <input class="cari" placeholder="Cari" type="text" />
+                          <input class="cari" placeholder="Cari" type="text" />
                     </div>
-            </div>
-            <img class="divbstar-header-search-bar-b-icon" alt="Search icon" src="navbar/searching.svg">
+              </div>
+              <img class="divbstar-header-search-bar-b-icon" alt="Search icon" src="images/searching.svg">
         </div>
         <div class="divbstar-header-actions">
-            <a href="profile-page.html"><img class="div-icon" alt="Profile icon" src="navbar/profile.svg"></a>
-            
-            <img class="image-icon4" alt="Add video icon" src="navbar/add vidio.svg">
+              <a href="profile-page.html"><img class="div-icon" alt="Profile icon" src="images/profile.svg"></a>
+              
+              <img class="image-icon4" alt="Add video icon" src="images/add vidio.svg">
+              
         </div>
-    </div>
-    <div class="bg">
-        <div class="profile-container">
-            <div class="pfp-container">
-                <img src="images/goof.jpg">
-                <a>Username</a>
+  </div>
+
+    <div class="content">
+        <div class="side-menu">
+            <div class="side-background">
+                <img src="images/Thumbnail (1).png" alt="Avatar" class="background-thumbnail">
+            </div>
+            <div class="cover">
+                <img src="images/Thumbnail (1).png" alt="Avatar" class="cover-thumbnail">
+            </div>
+            <div class="details">
+                <h2>Watch Later</h2>
+                <span class="name">Author</span>
+                <span class="info">10 video No views Last updated on 7 Jun 2015</span>
+            </div>
+            <div class="download-share">
+                <button class="button1"><i class="fas fa-download"></i></button>
+                <button class="button1"><i class="fas fa-share"></i></button>
+            </div>
+            <div class="play-menu">
+                <button class="button2" id="play-all"><i class="fas fa-play"></i>Play All</button>
+                <button class="button2" id="shuffle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M403.8 34.4c12-5 25.7-2.2 34.9 6.9l64 64c6 6 9.4 14.1 9.4 22.6s-3.4 16.6-9.4 22.6l-64 64c-9.2 9.2-22.9 11.9-34.9 6.9s-19.8-16.6-19.8-29.6V160H352c-10.1 0-19.6 4.7-25.6 12.8L284 229.3 244 176l31.2-41.6C293.3 110.2 321.8 96 352 96h32V64c0-12.9 7.8-24.6 19.8-29.6zM164 282.7L204 336l-31.2 41.6C154.7 401.8 126.2 416 96 416H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H96c10.1 0 19.6-4.7 25.6-12.8L164 282.7zm274.6 188c-9.2 9.2-22.9 11.9-34.9 6.9s-19.8-16.6-19.8-29.6V416H352c-30.2 0-58.7-14.2-76.8-38.4L121.6 172.8c-6-8.1-15.5-12.8-25.6-12.8H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H96c30.2 0 58.7 14.2 76.8 38.4L326.4 339.2c6 8.1 15.5 12.8 25.6 12.8h32V320c0-12.9 7.8-24.6 19.8-29.6s25.7-2.2 34.9 6.9l64 64c6 6 9.4 14.1 9.4 22.6s-3.4 16.6-9.4 22.6l-64 64z"/></svg>Shuffle</button>
             </div>
         </div>
-        <div class="btn-container">
-            <div class="btn-bg">
-                <a href="watch-later-page.html" class="link-prop"><div class="pfp-btn">Your Videos</div></a>
-                <a href="watch-later-page.html" class="link-prop"><div class="pfp-btn">Playlist</div></a>
-            </div>
-        </div>
-        <div class="recommend-vids">
-            <div class="vids">
-                <img class="thumbnail" src="images/tbn8.jpg">
+    
+        <div class="group-parent">
+            <div class="video-card-parent">
+                <img class="video-card-icon" alt="" src="images/Thumbnail (1).png">
+                
+                <div class="div">1</div>
+                <div class="video-title-parent">
+                        <b class="video-title">Video Title</b>
+                        <div class="author-365k">Author  -  3.65K views  -  2 months ago</div>
+                </div>
                 <div class="info-container">
+                    <div class="info">
+                        <a>Video Title</a>
+                        <div class="views-rating">
+                            <a>69K Views</a>
+                            <div class="rating">
+                                <img class="icon" src="images/like.svg">
+                                <a>69%</a>
+                            </div>
+                            <div class="rating">
+                                <img class="icon" src="images/dislike.svg">
+                                <a>31%</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+            <div class="parent">
+                <div class="div1">2</div>
+                <div class="video-title-group">
+                        <b class="video-title">Video Title</b>
+                        <div class="author-365k">Author  -  3.65K views  -  2 months ago</div>
+                </div>
+                <div class="video-card-exclusive">
+                        <img class="thumbnail-icon" alt="" src="images/Thumbnail (2).png">
+                        
+                        <div class="video-card-exclusive-child">
+                        </div>
+                </div>
+                <div class="info-container2">
+                    <div class="info">
+                        <a>Video Title</a>
+                        <div class="views-rating">
+                            <a>69K Views</a>
+                            <div class="rating">
+                                <img class="icon" src="images/like.svg">
+                                <a>69%</a>
+                            </div>
+                            <div class="rating">
+                                <img class="icon" src="images/dislike.svg">
+                                <a>31%</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+
+            <div class="group-container">
+                <div class="container">
+                    <div class="div3">3</div>
+                    <div class="frame-div">
+                            <b class="video-title">Video Title</b>
+                            <div class="author-365k">Author  -  3.65K views  -  2 months ago</div>
+                    </div>
+                </div>
+                <img class="video-card-icon2" alt="" src="images/Thumbnail (3).png">
+                <div class="info-container3">
                     <div class="info">
                         <a>Video Title</a>
                         <div class="views-rating">
@@ -66,9 +143,15 @@
                     </div>
                 </div>
             </div>
-            <div class="vids">
-                <img class="thumbnail" src="images/F_3t3oHbgAArFV_.jpg">
-                <div class="info-container">
+
+            <div class="group">
+                <div class="div1">4</div>
+                <div class="video-title-group">
+                        <b class="video-title">Video Title</b>
+                        <div class="author-365k">Author  -  3.65K views  -  2 months ago</div>
+                </div>
+                <img class="video-card-icon1" alt="" src="images/Thumbnail (4).png">
+                <div class="info-container4">
                     <div class="info">
                         <a>Video Title</a>
                         <div class="views-rating">
@@ -85,9 +168,17 @@
                     </div>
                 </div>
             </div>
-            <div class="vids">
-                <img class="thumbnail" src="images/tbn8.jpg">
-                <div class="info-container">
+
+            <div class="group-div">
+                <div class="container">
+                    <div class="div3">5</div>
+                        <div class="frame-div">
+                            <b class="video-title">Video Title</b>
+                            <div class="author-365k">Author  -  3.65K views  -  2 months ago</div>
+                    </div>
+                </div>
+                <img class="video-card-icon1" alt="" src="images/Thumbnail (5).png">
+                <div class="info-container4">
                     <div class="info">
                         <a>Video Title</a>
                         <div class="views-rating">
@@ -104,9 +195,16 @@
                     </div>
                 </div>
             </div>
-            <div class="vids">
-                <img class="thumbnail" src="images/F_3t3oHbgAArFV_.jpg">
-                <div class="info-container">
+            <div class="group-parent1">
+                <div class="parent2">
+                    <div class="div3">10</div>
+                        <div class="video-title-parent2">
+                            <b class="video-title">Video Title</b>
+                            <div class="author-365k">Author  -  3.65K views  -  2 months ago</div>
+                    </div>
+                </div>
+                <img class="video-card-icon4" alt="" src="images/Thumbnail (6).png">
+                <div class="info-container10">
                     <div class="info">
                         <a>Video Title</a>
                         <div class="views-rating">
@@ -123,9 +221,14 @@
                     </div>
                 </div>
             </div>
-            <div class="vids">
-                <img class="thumbnail" src="images/F_3t3oHbgAArFV_.jpg">
-                <div class="info-container">
+            <div class="parent3">
+                <div class="div6">6</div>
+                    <div class="video-title-parent3">
+                            <b class="video-title">Video Title</b>
+                            <div class="author-365k">Author  -  3.65K views  -  2 months ago</div>
+                    </div>
+                <img class="video-card-icon5" alt="" src="images/Thumbnail (7).png">
+                <div class="info-container4">
                     <div class="info">
                         <a>Video Title</a>
                         <div class="views-rating">
@@ -142,9 +245,16 @@
                     </div>
                 </div>
             </div>
-            <div class="vids">
-                <img class="thumbnail" src="images/tbn8.jpg">
-                <div class="info-container">
+            <div class="group-parent2">
+                <div class="parent4">
+                    <div class="div3">7</div>
+                        <div class="frame-div">
+                            <b class="video-title">Video Title</b>
+                            <div class="author-365k">Author  -  3.65K views  -  2 months ago</div>
+                    </div>
+                </div>
+                <img class="video-card-icon5" alt="" src="images/Thumbnail (8).png">
+                <div class="info-container4">
                     <div class="info">
                         <a>Video Title</a>
                         <div class="views-rating">
@@ -161,9 +271,16 @@
                     </div>
                 </div>
             </div>
-            <div class="vids">
-                <img class="thumbnail" src="images/F_3t3oHbgAArFV_.jpg">
-                <div class="info-container">
+            <div class="group-parent3">
+                <div class="parent5">
+                    <div class="div3">8</div>
+                        <div class="frame-div">
+                            <b class="video-title">Video Title</b>
+                            <div class="author-365k">Author  -  3.65K views  -  2 months ago</div>
+                    </div>
+                </div>
+                <img class="video-card-icon7" alt="" src="images/Thumbnail (9).png">
+                <div class="info-container8">
                     <div class="info">
                         <a>Video Title</a>
                         <div class="views-rating">
@@ -180,161 +297,20 @@
                     </div>
                 </div>
             </div>
-            <div class="vids">
-                <img class="thumbnail" src="images/tbn8.jpg">
-                <div class="info-container">
-                    <div class="info">
-                        <a>Video Title</a>
-                        <div class="views-rating">
-                            <a>69K Views</a>
-                            <div class="rating">
-                                <img class="icon" src="images/like.svg">
-                                <a>69%</a>
-                            </div>
-                            <div class="rating">
-                                <img class="icon" src="images/dislike.svg">
-                                <a>31%</a>
-                            </div>
-                        </div>
+            <div class="group-parent4">
+                <div class="parent5">
+                    <div class="div3">9</div>
+                        <div class="frame-div">
+                            <b class="video-title">Video Title</b>
+                            <div class="author-365k">Author  -  3.65K views  -  2 months ago</div>
                     </div>
                 </div>
-            </div>
-            <div class="vids">
-                <img class="thumbnail" src="images/tbn8.jpg">
-                <div class="info-container">
-                    <div class="info">
-                        <a>Video Title</a>
-                        <div class="views-rating">
-                            <a>69K Views</a>
-                            <div class="rating">
-                                <img class="icon" src="images/like.svg">
-                                <a>69%</a>
-                            </div>
-                            <div class="rating">
-                                <img class="icon" src="images/dislike.svg">
-                                <a>31%</a>
-                            </div>
+                <div class="video-card-exclusive1">
+                        <img class="thumbnail-icon" alt="" src="images/Thumbnail (10).png">
+                        <div class="video-card-exclusive-child">
                         </div>
-                    </div>
                 </div>
-            </div>
-            <div class="vids">
-                <img class="thumbnail" src="images/F_3t3oHbgAArFV_.jpg">
-                <div class="info-container">
-                    <div class="info">
-                        <a>Video Title</a>
-                        <div class="views-rating">
-                            <a>69K Views</a>
-                            <div class="rating">
-                                <img class="icon" src="images/like.svg">
-                                <a>69%</a>
-                            </div>
-                            <div class="rating">
-                                <img class="icon" src="images/dislike.svg">
-                                <a>31%</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="vids">
-                <img class="thumbnail" src="images/tbn8.jpg">
-                <div class="info-container">
-                    <div class="info">
-                        <a>Video Title</a>
-                        <div class="views-rating">
-                            <a>69K Views</a>
-                            <div class="rating">
-                                <img class="icon" src="images/like.svg">
-                                <a>69%</a>
-                            </div>
-                            <div class="rating">
-                                <img class="icon" src="images/dislike.svg">
-                                <a>31%</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="vids">
-                <img class="thumbnail" src="images/F_3t3oHbgAArFV_.jpg">
-                <div class="info-container">
-                    <div class="info">
-                        <a>Video Title</a>
-                        <div class="views-rating">
-                            <a>69K Views</a>
-                            <div class="rating">
-                                <img class="icon" src="images/like.svg">
-                                <a>69%</a>
-                            </div>
-                            <div class="rating">
-                                <img class="icon" src="images/dislike.svg">
-                                <a>31%</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="vids">
-                <img class="thumbnail" src="images/F_3t3oHbgAArFV_.jpg">
-                <div class="info-container">
-                    <div class="info">
-                        <a>Video Title</a>
-                        <div class="views-rating">
-                            <a>69K Views</a>
-                            <div class="rating">
-                                <img class="icon" src="images/like.svg">
-                                <a>69%</a>
-                            </div>
-                            <div class="rating">
-                                <img class="icon" src="images/dislike.svg">
-                                <a>31%</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="vids">
-                <img class="thumbnail" src="images/tbn8.jpg">
-                <div class="info-container">
-                    <div class="info">
-                        <a>Video Title</a>
-                        <div class="views-rating">
-                            <a>69K Views</a>
-                            <div class="rating">
-                                <img class="icon" src="images/like.svg">
-                                <a>69%</a>
-                            </div>
-                            <div class="rating">
-                                <img class="icon" src="images/dislike.svg">
-                                <a>31%</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="vids">
-                <img class="thumbnail" src="images/F_3t3oHbgAArFV_.jpg">
-                <div class="info-container">
-                    <div class="info">
-                        <a>Video Title</a>
-                        <div class="views-rating">
-                            <a>69K Views</a>
-                            <div class="rating">
-                                <img class="icon" src="images/like.svg">
-                                <a>69%</a>
-                            </div>
-                            <div class="rating">
-                                <img class="icon" src="images/dislike.svg">
-                                <a>31%</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="vids">
-                <img class="thumbnail" src="images/tbn8.jpg">
-                <div class="info-container">
+                <div class="info-container8">
                     <div class="info">
                         <a>Video Title</a>
                         <div class="views-rating">
@@ -362,6 +338,6 @@
             <a><b>Contact Us</b></a>
         </div>
         <p class="copyright">Copyright © 2024 Bstation provided by balaboom</p>
-    </footer>
+    </footer>
 </body>
 </html>
