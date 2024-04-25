@@ -285,6 +285,7 @@ body{
     height: 10px;
     margin-top: 20px;
     padding-bottom: 20px;
+    margin-left: 10px;
 }
 
 
@@ -309,7 +310,7 @@ body{
     height: 200px;
     width: 320px;
     border-radius: 8px;
-    /* margin: 25px; */
+    margin-top: 10px;
 }
 
 .thumbnail {
@@ -402,9 +403,15 @@ body{
 }
 
 /* auto moving image */
+.main-slideshow-container {
+    position: relative;
+    margin: auto;
+}
+
 .slideshow-container {
     position: relative;
-    top: 25px;
+    top: 40px;
+    padding-bottom: 20px;
     margin: auto;
 }
 
@@ -512,6 +519,7 @@ footer{
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 30px;
 }
 
 .footer-logo{
