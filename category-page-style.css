@@ -17,6 +17,10 @@
     z-index: 10;
 }
 
+#main-logo{
+    padding-left: 20px;
+}
+
 .divbstar-header-left {
     position: absolute;
     display: inline-flex;
@@ -130,6 +134,7 @@
     height: 26.664px;
     overflow: hidden;
     font-size: 9.332px;
+    z-index: 100;
     color: #999;
 }
 .div-icon {

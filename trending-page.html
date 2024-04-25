@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+      <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/x-icon" href="images/icon_title_bstation.png">
@@ -10,12 +10,13 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    </head>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap" rel="stylesheet">
+      </head>
     <body>
             <div class="header">
                   <div class="divbstar-header-left">
-                        <img class="link-image" alt="3 Lines Bar" src="images/bar 3 garis.svg">
-                        <a href="home-page.html"> <img class="button-icon" alt="Bstation Logo" src="images/logo bstation.svg"> </a>
+                        <!-- <img class="link-image" alt="3 Lines Bar" src="images/bar 3 garis.svg"> -->
+                        <a href="home-page.html"> <img class="button-icon" alt="Bstation Logo" src="images/logo bstation.svg" id="main-logo"> </a>
                   </div>
                   <div class="categories"><a href="category-page.html" class="navbar-link">Categories</a></div>
                   <div class="watch-later"><a href="watch-later-page.html" class="navbar-link">Watch Later</a></div>
@@ -23,22 +24,24 @@
                   <div class="divbstar-header-search-bar">
                         <div class="input">
                               <div class="divplaceholder">
-                                    <input class="cari" placeholder="Cari" type="text" />
+                                    <input class="cari" placeholder="Find" type="text" />
                               </div>
                         </div>
-                        <img class="divbstar-header-search-bar-b-icon" alt="Search icon" src="images/searching.svg">
+                        <a href="video-page.html"><img class="divbstar-header-search-bar-b-icon" alt="Search icon" src="images/searching.svg"></a>
                   </div>
                   <div class="divbstar-header-actions">
-                        <a href="profile-page.html"><img class="div-icon" alt="Profile icon" src="images/profile.svg"></a>
-                        
-                        <img class="image-icon4" alt="Add video icon" src="images/add vidio.svg">
+                        <a href="profile-page.html"><img class="div-icon" alt="Profile icon" src="navbar/profile.svg"></a>
+            
+                        <a href="add-video.html"><img class="image-icon4" alt="Add video icon" src="navbar/add vidio.svg"></a>
                         
                   </div>
             </div>
-            <div>
-                  <div class="bg">
-                        <img src="images/trending-background-2.png" alt="Trending Background" id="trending-image">
-                  </div>
+            <div class="bg">
+                  <!-- <img src="images/trending-background.png" alt="Trending Background" id="trending-image"> -->
+                  <img src="images/fire-trending-2.png" alt="fire" id="fire">
+                  <h2 id="trending-h2">Trending</h2>
+            </div>
+            <div class="top-three-container">
                   <div class="vids" id="top-1">
                         <img class="thumbnail" src="images/rekom2.png">
                         <div class="info-container">
