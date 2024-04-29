@@ -27,7 +27,7 @@ form.addEventListener("submit",function(e){
     }
     else{
         alert("Account Registered Successfully!!")
-        window.location.href = "./LoginPage.html"
+        window.location.href = "./index.html"
     }
 })
 
