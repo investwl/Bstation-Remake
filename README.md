@@ -2,4 +2,4 @@ Repository is used for HCI Lec Project.
 
 To avoid crash (because its not very responsive), please open it on 150% scale with 16:10 display
 
-github.com/Crimson-Squadron/Bstation-Remake/home-page
+https://crimson-squadron.github.io/Bstation-Remake/home-page
