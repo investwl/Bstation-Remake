@@ -21,6 +21,192 @@ body{
     z-index: 10;
 }
 
+.trendingpage-background-1-icon {
+    width: 100%;
+    position: relative;
+    height: 913px;
+    object-fit: cover;
+    z-index: 0;
+    margin: 0px;
+    padding: 0;
+}
+.the-witcher {
+    width: 452px;
+    position: absolute;
+    margin: 0;
+    top: 152.12px;
+    left: 139.54px;
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    font-family: 'Irish Grover';
+    display: inline-block;
+    z-index: 1;
+}
+.our-trending {
+    width: 170px;
+    position: absolute;
+    margin: 10px;
+    padding: 45px;
+    top: 51.12px;
+    left: 54.54px;
+    display: inline-block;
+    z-index: 2;
+}
+.seasons-fantasy {
+    width: 286px;
+    position: absolute;
+    margin: 0;
+    top: 350.12px;
+    left: 142.54px;
+    font-size: 20px;
+    color: #5c5c5c;
+    display: inline-block;
+    z-index: 3;
+}
+.the-witcher1 {
+    width: 156px;
+    position: absolute;
+    margin: 0;
+    top: 308.12px;
+    left: 142.54px;
+    display: inline-block;
+    z-index: 4;
+}
+.geralt-of-rivia {
+    width: 462px;
+    position: absolute;
+    margin: 0;
+    top: 421.12px;
+    left: 142.54px;
+    font-size: 16px;
+    color: #d0d0d0;
+    display: flex;
+    align-items: center;
+    z-index: 5;
+}
+.starring {
+    margin: 0;
+    white-space: pre-wrap;
+}
+.starring-henry-container {
+    width: 356px;
+    position: absolute;
+    margin: 0;
+    top: 507.12px;
+    left: 143.54px;
+    font-size: 16px;
+    color: #e1e1e1;
+    display: inline-block;
+    z-index: 6;
+}
+.rank11-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 200.1px;
+    height: 300px;
+    object-fit: cover;
+}
+.rank1-2-icon {
+    position: absolute;
+    top: 0px;
+    left: 270.14px;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+.rank3-icon {
+    position: absolute;
+    top: 0px;
+    left: 540.14px;
+    width: 224px;
+    height: 300px;
+    object-fit: cover;
+}
+.rank4-icon {
+    position: absolute;
+    top: 0px;
+    left: 834.13px;
+    width: 238.5px;
+    height: 300px;
+    object-fit: cover;
+}
+.rank-2-1 {
+    position: absolute;
+    top: 0px;
+    left: 1142.63px;
+    width: 202.2px;
+    height: 300px;
+    object-fit: cover;
+}
+.image-5-icon {
+    position: absolute;
+    top: -6px;
+    left: -5px;
+    width: 45.2px;
+    height: 50px;
+    object-fit: cover;
+}
+.image-2-icon {
+    position: absolute;
+    top: -6px;
+    left: 269px;
+    width: 41.3px;
+    height: 50px;
+    object-fit: cover;
+}
+.image-3-icon {
+    position: absolute;
+    top: -6px;
+    left: 538px;
+    width: 43.1px;
+    height: 50px;
+    object-fit: cover;
+}
+.image-4-icon {
+    position: absolute;
+    top: -6px;
+    left: 828px;
+    width: 44.4px;
+    height: 50px;
+    object-fit: cover;
+}
+.image-1-icon {
+    position: absolute;
+    top: -6px;
+    left: 1143px;
+    width: 41.1px;
+    height: 50px;
+    object-fit: cover;
+}
+.rank11-parent {
+    width: 1344.8px;
+    position: absolute;
+    margin: 0 !important;
+    top: 599.12px;
+    left: calc(50% - 672.46px);
+    box-shadow: 12px 12px 30px #000;
+    height: 300px;
+    z-index: 7;
+}
+.background {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+    font-family: Roboto;
+}
+
+
+
 #main-logo{
     padding-left: 20px;
 }
