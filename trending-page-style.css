@@ -462,6 +462,7 @@ body{
 
 .info-container:hover {
     opacity: 1;
+    border-radius: 8px;
 }
 
 .info {
