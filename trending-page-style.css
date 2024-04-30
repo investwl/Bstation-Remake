@@ -51,6 +51,7 @@ body{
     left: 54.54px;
     display: inline-block;
     z-index: 2;
+    font-family: Roboto;
 }
 .seasons-fantasy {
     width: 286px;
@@ -62,6 +63,7 @@ body{
     color: #5c5c5c;
     display: inline-block;
     z-index: 3;
+    font-family: Roboto;
 }
 .the-witcher1 {
     width: 156px;
@@ -71,6 +73,7 @@ body{
     left: 142.54px;
     display: inline-block;
     z-index: 4;
+    font-family: Roboto;
 }
 .geralt-of-rivia {
     width: 462px;
@@ -83,12 +86,14 @@ body{
     display: flex;
     align-items: center;
     z-index: 5;
+    font-family: Roboto;
 }
 .starring {
     margin: 0;
     white-space: pre-wrap;
 }
 .starring-henry-container {
+    font-family: Roboto;
     width: 356px;
     position: absolute;
     margin: 0;
