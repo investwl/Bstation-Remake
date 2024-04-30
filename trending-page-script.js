@@ -18,3 +18,10 @@ navigate3.forEach(function(div) {
     window.location.href = 'video-page.html'
   })
 })
+
+const navigate4 = document.querySelectorAll('.trendingpage-background-1-icon')
+navigate4.forEach(function(div) {
+  div.addEventListener('click', function() {
+    window.location.href = 'video-page.html'
+  })
+})
