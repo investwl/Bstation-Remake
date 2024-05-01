@@ -8,6 +8,9 @@
         <link rel="stylesheet" href="home-page-style.css">
         <!-- ternyata kalo mau punya icon tinggal import aja font awesome juga bisa -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="header">
@@ -21,15 +24,18 @@
             <div class="divbstar-header-search-bar">
                   <div class="input">
                         <div class="divplaceholder">
-                              <input class="cari" placeholder="Search" type="text" />
+                              <input class="cari" placeholder="Search" type="text" id="search-input"/>
                         </div>
                   </div>
-                  <a href="video-page.html"><img class="divbstar-header-search-bar-b-icon" alt="Search icon" src="images/searching.svg"></a>
+                  <a href="video-page.html"><img class="divbstar-header-search-bar-b-icon" alt="Search icon" src="images/search.png"></a>
             </div>
             <div class="divbstar-header-actions">
-                <a href="profile-page.html"><img class="div-icon" alt="Profile icon" src="navbar/profile.svg"></a>
+                <a href="profile-page.html"><img class="div-icon" alt="Profile icon" src="images/profile.svg"></a>
             
-                <a href="add-video.html"><img class="image-icon4" alt="Add video icon" src="navbar/add vidio.svg"></a>
+                <a href="add-video.html"><img class="image-icon4" alt="Add video icon" src="images/add_video.png" id="add-video-icon"></a>
+
+                <a href="login-page.html" id="login-text">Login</a>
+                <a href="sign-up-page.html" id="signup-text">Sign Up</a>
                   
             </div>
         </div>
@@ -369,7 +375,7 @@
                 </div>
             </div>
             <div class="rec-show-more" onclick="toggleRec()">
-                <a>Show more</a>
+                <a id="showmore-text">Show more</a>
                 <img src="images/chevron-down.svg">
             </div>
         </div>
@@ -593,6 +599,7 @@
             </div>
         </div>
         <script src="home-page-script.js" defer></script>
+        <br><br><br><br><br><br>
         <footer>
             <img src="./images/bstation_logo.png" class="footer-logo" alt="BStation Logo">
             <div class="footer-sentence">

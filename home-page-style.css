@@ -2,11 +2,12 @@
     box-sizing: border-box;
     margin : 0;
     padding: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto;
+    color: white;
 }
 
 body{
-    background-color: white;
+    background-color: #1f1f1f;
 }
 
 .profile{
@@ -26,8 +27,8 @@ body{
 
 .header{
     position: sticky;
-    background-color: white;
-    border-bottom: 1px solid #eee;
+    background-color: black;
+    border-bottom: 1px solid black;
     top: 0px;
     left: 0px;
     width: 100%;
@@ -36,6 +37,7 @@ body{
     bottom: 0.667px;
     font-family: Roboto;
     z-index: 10;
+    /* opacity: 95%; */
 }
 
 .divbstar-header-left {
@@ -123,10 +125,14 @@ body{
     top: 6.666px;
     right: 48.664px;
     left: 0.666px;
-    background-color: #fff;
-    border-right: 1px solid rgba(153, 153, 153, 0.3);
+    background-color: #000000;
+    border-right: 1px solid rgba(43, 43, 43, 0.3);
     box-sizing: border-box;
     height: 13.332px;
+}
+
+#search-input{
+    color: white;
 }
 
 #main-logo{
@@ -135,13 +141,13 @@ body{
 
 .divbstar-header-search-bar-b-icon {
     position: absolute;
-    width: calc(100% - 350.663px);
-    top: 0.666px;
+    width: 20px;
+    height: 20px;
+    top: 2px;
     right: 0.666px;
-    left: 448px;
+    left: 558px;
     max-width: 100%;
     overflow: hidden;
-    height: 25.332px;
     cursor: pointer;
 }
 .divbstar-header-search-bar {
@@ -149,7 +155,7 @@ body{
     width: calc(100% - 881.333px);
     top: 18.664px;
     right: 97.333px;
-    left: 784px;
+    left: 674px;
     border-radius: 13.332px;
     border: 1px solid rgba(153, 153, 153, 0.3);
     box-sizing: border-box;
@@ -173,6 +179,7 @@ body{
     width: 19.332px;
     height: 19.332px;
     overflow: hidden;
+    color: white;
 }
 
 .divbstar-header-actions {
@@ -185,6 +192,87 @@ body{
     left: 1100px;
     cursor: pointer;
 }
+
+#add-video-icon{
+    position: absolute;
+    top: 22.5px;
+    left: 185px;
+}
+
+#login-text{
+    position: absolute;
+    top: 25px;
+    left: 225px;
+    text-decoration: none;
+}
+
+#login-text:active{
+    position: absolute;
+    top: 25px;
+    left: 225px;
+    text-decoration: none;
+}
+
+#login-text:hover{
+    position: absolute;
+    top: 25px;
+    left: 225px;
+    text-decoration: none;
+    color:rgb(58, 169, 132);
+}
+
+#login-text:visited{
+    position: absolute;
+    top: 25px;
+    left: 225px;
+    text-decoration: none;
+}
+
+#login-text:visited:hover{
+    position: absolute;
+    top: 25px;
+    left: 225px;
+    text-decoration: none;
+    color:rgb(58, 169, 132);
+}
+
+#signup-text{
+    position: absolute;
+    top: 25px;
+    left: 275px;
+    text-decoration: none;
+}
+
+#signup-text:active{
+    position: absolute;
+    top: 25px;
+    left: 275px;
+    text-decoration: none;
+}
+
+#signup-text:hover{
+    position: absolute;
+    top: 25px;
+    left: 275px;
+    text-decoration: none;
+    color:rgb(58, 169, 132);
+}
+
+#signup-text:visited{
+    position: absolute;
+    top: 25px;
+    left: 275px;
+    text-decoration: none;
+}
+
+#signup-text:visited:hover{
+    position: absolute;
+    top: 25px;
+    left: 275px;
+    text-decoration: none;
+    color:rgb(58, 169, 132);
+}
+
 
 .categories {
     position: absolute;
@@ -202,12 +290,12 @@ body{
 }
 
 .navbar-link{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 .navbar-link:active{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -217,7 +305,7 @@ body{
 }
 
 .navbar-link:visited{
-    color: black;
+    color: rgb(233, 232, 232);
     text-decoration: none;
 }
 
@@ -231,7 +319,7 @@ body{
 .main-card-div{
     position: relative;
     text-align: center;
-    color: white;
+    /* color: white; */
     margin : 0;
 }
 
@@ -284,7 +372,6 @@ body{
 /* transisi for you text */
 
 #for-you-text{
-    color: black;
     font-size: 20px;
     font-weight: bold;
     padding-left : 26px;
@@ -385,7 +472,7 @@ body{
 
 #line-for-more{
     position: absolute;
-    color: black;
+    
     height: 10px;
 }
 
@@ -393,7 +480,7 @@ body{
     font-size: 24px;
     font-weight: normal;
     display: inline;
-    color: black;
+    
 }
 
 /* dibawah bagian trending */
@@ -402,7 +489,7 @@ body{
 }
 
 .trending-text{
-    color: black;
+    
     font-size: 20px;
     font-weight: bold;
     padding-left : 26px;
@@ -446,7 +533,6 @@ to {opacity: 1}
 }
 
 #top5-text{
-    color: black;
     font-size: 20px;
     font-weight: bold;
     padding-left : 26px;
@@ -459,16 +545,17 @@ to {opacity: 1}
     width: 239px;
     height: 365px;
     margin: 10px 25px 10px 25px;
-    border-radius: 5px;
+    border-radius: 5px none red;
 }
 
 .top-card:hover{
     box-shadow: -1px -1px 30px;
+    color: rgb(130, 130, 130);
 }
 
 /* recently added */
 #recently-added-text{
-    color: black;
+    
     font-size: 20px;
     font-weight: bold;
     padding-left : 26px;
@@ -493,7 +580,7 @@ to {opacity: 1}
 .rec-show-more {
     position: absolute;
     bottom: 0px;
-    background-color: #EDEDED;
+    background-color: #3d3c3c;
     height: 35px;
     width: 350px;
     margin-top: 35px;
@@ -515,8 +602,7 @@ to {opacity: 1}
 
 footer{
     position: relative;
-    background-color: #ebebeb;
-    color: black;
+    background-color: #3d3c3c;
     border-top: 10px solid rgb(4, 180, 244);
     width: 100%;
     height: 160px;
