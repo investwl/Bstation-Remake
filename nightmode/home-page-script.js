@@ -72,29 +72,3 @@ function toggleRec() {
       img.src = "images/chevron-down.svg"
   }
 }
-
-function darkMode() {
-  var element = document.querySelector('.header');
-  element.classList.toggle("dark-header");
-  element.classList.toggle("dark-navbar-link");
-  element.classList.toggle("dark-login");
-  element.classList.toggle("dark-sign-up");
-  var elemInputText = document.querySelector('.cari');
-  elemInputText.classList.toggle("dark-cari");
-  var elemInputBg = document.querySelector('.inputtext');
-  elemInputBg.classList.toggle("dark-inputtext");
-  var elemForYou = document.querySelector('.for-you-text');
-  elemForYou.classList.toggle("dark-for-you-text");
-  var elemForYou = document.querySelector('.trending-text'); 
-  elemForYou.classList.toggle("dark-trending-text");
-  var elemTop5 = document.querySelector('.top5-text'); 
-  elemTop5.classList.toggle("dark-top5-text");
-  var elemBody = document.querySelector('.bodypage'); 
-  elemBody.classList.toggle("dark-bodypage");
-  var elemRecentAdd = document.querySelector('.recently-added-text'); 
-  elemRecentAdd.classList.toggle("dark-recently-added-text");
-  var elemFooter = document.querySelector('.footer'); 
-  elemFooter.classList.toggle("dark-footer");
-  var elemCopyright = document.querySelector('.copyright'); 
-  elemCopyright.classList.toggle("dark-copyright");
-}
